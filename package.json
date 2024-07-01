@@ -1,0 +1,25 @@
+{
+  "name": "ethereum-node-proxy",
+  "version": "1.0.0",
+  "description": "A proxy server for Ethereum RPC calls with authentication based on IPs and API keys.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "newkey": "node src/utils/keygen.js"
+  },
+  "keywords": [
+    "ethereum",
+    "proxy",
+    "authentication",
+    "express",
+    "node"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "http-proxy-middleware": "^2.0.6",
+    "uuid": "^10.0.0"
+  }
+}
